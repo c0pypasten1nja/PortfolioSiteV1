@@ -1,0 +1,129 @@
+/*GENERAL*/
+
+body {	
+	font-family: 'IM Fell Double Pica', serif;
+	font-size: 14px;
+	max-width: 1000px;
+	margin: 0 auto;
+	line-height: 1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 6%
+}
+
+/*HEADER*/
+
+header{
+	width: 100%;
+  	margin-bottom: 10px;
+  	display: block;
+  	padding: 10px;
+}
+.header {
+	border-bottom: 3px solid #7d97ad;
+	padding: 10px;
+}
+
+.logo {
+	width: 90px;
+	padding: 10px;
+}
+
+.name {	
+	font-size: 48px;
+	padding: 10px 20px;
+	margin: 0;
+}
+
+.title {
+	font-size: 16px;
+	padding: 10px 20px;
+	margin: 0;
+}
+
+/*HERO*/
+
+.hero {
+	text-align: center;
+	border-radius: 15%
+	width: 90%
+	padding: 10px;
+	margin: 10px;
+}
+
+/*FEATURED WORK*/
+
+.featuredWorkTitle {
+	font-size: 36px;
+	padding: 10px 20px;
+	margin: 0;
+	color: #7d97ad;
+}
+
+.featuredWork {
+	padding: 10px;
+	display: flex;
+	text-align: center;
+}
+
+.project {
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+}
+
+.projectName {
+	font-size: 24px;
+	font-style: italic;
+	color: #2d3c49
+	padding: 10px;
+	margin: 0;
+}
+
+.gitHubLink {
+	color: #7d97ad;
+}
+
+/*FOOTER*/
+
+.footer {
+	background-color: #2d3c49;
+	color: #02b3e4;
+	padding: 10px;
+	text-align: center; }
+
+/*VIEWPORT max-width: 550px*/
+
+@media screen and (max-width: 550px) {
+.header {
+	text-align: center;}
+.logo {
+	width: 70px;}
+.featuredWork {
+	padding: 10px;
+	display: inline-block;
+	text-align: center;}
+}
+
+
+
+
+/*VIEWPORT min-width: 551px*/
+
+@media screen and (min-width: 551px) {
+.logo {
+	float: left;}
+.name {
+	text-align: right;}
+.title {
+	text-align: right;}
+.featuredWork {
+	padding: 10px;
+	display: inline-block;
+	text-align: center;}	
+}
+
+/*VIEWPORT min-width: 1101px*/
